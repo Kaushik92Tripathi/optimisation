@@ -3,7 +3,7 @@ import { createApi } from 'unsplash-js';
 // Initialize the Unsplash API with a public access key
 // In production, you should use environment variables
 const unsplash = createApi({
-  accessKey: 'your-unsplash-access-key', // Replace with your access key or use process.env.UNSPLASH_ACCESS_KEY
+  accessKey: process.env.UNSPLASH_ACCESS_KEY, // Replace with your access key or use process.env.UNSPLASH_ACCESS_KEY
 });
 
 // Tag for revalidation
