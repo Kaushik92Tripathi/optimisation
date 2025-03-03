@@ -109,7 +109,7 @@ export default function GalleryClient({ initialImages }) {
               </div>
               <h3 className="text-xl font-playfair font-bold mb-2 text-[#2e5077]">Optimized Caching</h3>
               <p className="font-nunito text-neutral-600">
-                Experience efficient data fetching with Next.js caching strategies using 'force-cache' and cache tags.
+                Experience efficient data fetching with Next.js caching strategies using &apos;force-cache&apos; and cache tags.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
@@ -142,7 +142,7 @@ export default function GalleryClient({ initialImages }) {
       <footer className="bg-[#2e5077] text-white py-8">
         <div className="container-custom">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="font-nunito">© {new Date().getFullYear()} Serene Gallery</p>
+            <p className="font-nunito"> {new Date().getFullYear()} Serene Gallery</p>
             <div className="mt-4 md:mt-0">
               <p className="text-sm text-white opacity-80 font-nunito">
                 Built with Next.js, Tailwind CSS, and Unsplash API
